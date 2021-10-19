@@ -1,4 +1,5 @@
-//don’t repeat yourself
+//hometask #05 by Seikin Alexey
+// don’t repeat yourself
 // Создайте функцию, принимающую в себя строковый список произвольной длины list и
 // целое число index.
 // Верните из функции значение list[index] если таковое имеется,
