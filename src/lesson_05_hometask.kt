@@ -9,4 +9,19 @@
 // Пример входных данных: list = listOf("Macbook", "iPad", "iPhone", "iMac"), index = 6
 // Пример результата: "Список не содержит в себе значение с данным индексом"
 
+fun main(){
+    val list: List<String> = listOf("Macbook", "Тимур", "iPhone", "iMac")
+    print("Введите положительное целочисленное значение для index: ")
+    val index = readLine()!!.toInt()
+    stringlistimport (list, index)
 
+}
+fun stringlistimport (list: List<String> = listOf("Macbook", "iPad", "iPhone", "iMac"), index: Int) {
+        try {
+            println("С индексом $index обнаружено значение ${list[index]}")
+        } catch (e: Exception) {
+            println("Список не содержит в себе значение с данным индексом")
+        } finally {
+            println("Завершение программы")
+        }
+}
