@@ -11,7 +11,5 @@ fun getbyindex(list: List<String>, index: Int): String{
         list[index]
     } catch (e:Exception){
         "No index"
-    } finally {
-        "End of"
     }
 }
